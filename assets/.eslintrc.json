@@ -1,0 +1,31 @@
+{
+  "rules": {},
+  "env": {
+    "es6": true,
+    "browser": true,
+	  "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+	    "js": true,
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+	  "wp": true,
+	  "require": true,
+	  "__dirname": true,
+	  "module": true
+  },
+  "plugins": [
+    "react"
+  ]
+}
